@@ -152,6 +152,51 @@ body {
     font-size: 14px;
 }
 
+.row * {
+    background-color: rgb(116, 118, 170, 1.0);
+    border-radius: 7px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.skills-section img {
+    margin-top: 10px;
+}
+
+.skills-section h3 {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.skills-section table{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    border-collapse: separate;
+    width: 100%;
+    padding-left: 30px;
+}
+
 #courses-content {
     display: flex;
     flex-direction: row;
