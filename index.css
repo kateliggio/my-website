@@ -56,21 +56,12 @@ nav a:hover {
     color: #161B33;
 }
 
-/*
-nav a:hover {
-    color: #F5F5F5;
-}
-
-nav li {
-    float: left;
-}
-*/
 .home { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 
@@ -107,11 +98,14 @@ nav li {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    margin-top: -10px;
 }
 
 .socials img {
     margin-right: 20px;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
 }
 
 .section {
@@ -137,10 +131,11 @@ nav li {
 #experience-content {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     max-width: 55%;
     margin: auto;
+    margin-top: -10px;
 }
 
 .experience-text-all {
@@ -150,17 +145,11 @@ nav li {
     align-items: center;
 }
 
-.experiences * {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    background-color: rgb(116, 118, 170, 1.0);
-    border-radius: 7px;
-}
 
 .experiences {
-    padding: 20px;
+    margin: 40px;
+    background-color: #7476AA;
+    border-radius: 7px;
 }
 
 .header {
@@ -205,11 +194,6 @@ nav li {
     font-size: 14px;
 }
 
-.row * {
-    background-color: rgb(116, 118, 170, 1.0);
-    border-radius: 7px;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -229,6 +213,8 @@ nav li {
     height: 300px;
     margin: 20px;
     padding: 20px;
+    background-color: rgb(116, 118, 170, 0.50);
+    border-radius: 7px;
 }
 
 .skills-section img {
@@ -260,11 +246,6 @@ nav li {
     margin-bottom: 50px;
 }
 
-#courses-content * {
-    background: #7476AA;
-    border-radius: 7px;
-}
-
 .courses-section {
     display: flex;
     flex-direction: column;
@@ -273,6 +254,8 @@ nav li {
     width: 405px;
     height: 470px;
     margin: 20px;
+    background: linear-gradient(to bottom, #7476AA, #161B33);
+    border-radius: 7px;
 }
 
 .courses-section h3 {
@@ -290,13 +273,4 @@ nav li {
     font-weight: 200;
     padding-left: 20px;
     margin-bottom: 3px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
