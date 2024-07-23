@@ -209,8 +209,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 450px;
-    height: 300px;
+    width: 33%;/*450px;*/
+    height: 40vh;
     margin: 20px;
     padding: 20px;
     background-color: rgb(116, 118, 170, 0.50);
@@ -273,4 +273,55 @@ nav a:hover {
     font-weight: 200;
     padding-left: 20px;
     margin-bottom: 3px;
+}
+
+.courses-section ul {
+    min-height: 470px;
+}
+
+@media (max-width: 1200px) {
+    #experience-content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .skills-section table{
+        font-size: 18px;
+        padding: auto;
+    }
+
+    .courses-section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .skills-section h3 {
+        font-size: 25px;
+    }
+
+    .skills-section table {
+        font-size: 16px;
+        padding: auto;
+    }
+
+    .courses-section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 750px) {
+    .skills-section h3 {
+        font-size: 18px;
+    }
+
+    .skills-section table {
+        font-size: 12px;
+        padding: auto;
+    }
+
 }
